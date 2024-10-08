@@ -31,7 +31,7 @@ body{
 }
 .box1 div{
  display: flex;
-
+align-items: center;
 }
 .box1 h4{
     font-size: larger;
@@ -50,7 +50,11 @@ body{
     margin-left: 70px;
     width: 100px;
     height: 30px;
+    border-radius: 7px;
+    padding: 20px 10px;
+    font-size: larger;
 }
+
 .container button{
     width: 250px;
     margin: 20px 10px 10px 150px;
@@ -61,7 +65,7 @@ body{
     border: none;
     color: #fff;
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s ease-in 0.4s;
+    transition: background-color 0.2s ease-in 0.2s;
 }
 .container button:hover{
     background-color: #055e79;
