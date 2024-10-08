@@ -27,3 +27,7 @@ body{
     text-align: center;
     color: white;
 }
+.box1 div{
+ display: flex;
+
+}
