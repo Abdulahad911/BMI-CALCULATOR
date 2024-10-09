@@ -17,17 +17,17 @@ function calculatingBmi() {
         output.textContent = "BMI can't be negative"
        }
     if (bmi < 18.5 && bmi > 0){
-        return  output.textContent = `Your BMI : ${bmi.toFixed(2)} you are Under Weight`
+        return  output.textContent = `Your BMI : (${bmi.toFixed(2)}) You are Underweighted`
     }
     
    else if (bmi >= 18.6 && bmi < 24.9){
-     return output.textContent = `Your BMI : ${bmi.toFixed(2)} your weight is Normal`
+     return output.textContent = `Your BMI : (${bmi.toFixed(2)}) Your weight is Normal`
    }
    else if (25 <= bmi && bmi < 29.9){
-     return output.textContent = `Your BMI : ${bmi.toFixed(2)} you are Overweighted`
+     return output.textContent = `Your BMI : (${bmi.toFixed(2)}) You are Overweighted`
    }
   
    else {
-    return output.textContent = `Your BMI : ${bmi.toFixed(2)} your weight is Obesity`
+    return output.textContent = `Your BMI : (${bmi.toFixed(2)}) Your weight is Obesity`
    }
 }
