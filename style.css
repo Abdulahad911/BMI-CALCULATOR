@@ -35,7 +35,7 @@ body {
 
 .box1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-bottom: 15px;
 }
@@ -49,6 +49,12 @@ body {
 .box1 div {
     display: flex;
     align-items: center;
+}
+.h4{
+    margin-left: -20px;
+}
+#weightInput{
+    margin-left: -20px;
 }
 
 .box1 input {
