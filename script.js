@@ -30,4 +30,5 @@ function calculatingBmi() {
    else {
     return output.textContent = `Your BMI : (${bmi.toFixed(2)}) Your weight is Obesity`
    }
+   
 }
